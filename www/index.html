@@ -12,7 +12,7 @@
         let ncmb= new NCMB(appKey, clientKey);
         let TestClass= ncmb.DataStore("RegisterTest2"); 
         let testRecord= new TestClass(); 
-        testRecord.set("message2", "Shiraishi Kanta"); 
+        testRecord.set("name", "Shiraishi Kanta"); 
         testRecord.save();
         testRecord.save()  
         .then(function(m){    
